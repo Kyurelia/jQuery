@@ -1,0 +1,22 @@
+body {
+	font-size: 20px;
+	padding: 5%;	
+}
+.color_red {
+	color: red;
+}
+.cursor_pointer {
+	cursor: pointer;
+}
+.display_flex_center {
+	@include flex(center, center);
+}
+.btn_click {
+	background: $blue;
+	padding: 5px 15px;
+	margin: 20px;
+	color: #fff;
+	.bg_orange {
+		background: $orange;
+	}
+}
